@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iron Forge Fitness</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Iron Forge Fitness</h2>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#bmi">BMI</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+
+    <div class="hero">
+
+        <h1>Transform Your Body</h1>
+
+        <p>
+            Personal Training • Weight Loss • Muscle Building
+        </p>
+
+        <a href="#contact" class="btn">
+            Book Free Trial
+        </a>
+
+    </div>
+
+</header>
+
+<section id="about">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            🏋 Modern Equipment
+        </div>
+
+        <div class="card">
+            👨‍🏫 Certified Trainers
+        </div>
+
+        <div class="card">
+            🥗 Diet Guidance
+        </div>
+
+    </div>
+
+</section>
+
+<section id="plans">
+
+<h2>Membership Plans</h2>
+
+<div class="pricing">
+
+<div class="plan">
+<h3>Basic</h3>
+<h1>₹999</h1>
+<p>Gym Access</p>
+</div>
+
+<div class="plan">
+<h3>Pro</h3>
+<h1>₹1499</h1>
+<p>Gym + Diet Plan</p>
+</div>
+
+<div class="plan">
+<h3>Elite</h3>
+<h1>₹2499</h1>
+<p>Personal Trainer</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="bmi">
+
+<h2>BMI Calculator</h2>
+
+<input type="number" id="weight"
+placeholder="Weight (kg)">
+
+<input type="number" id="height"
+placeholder="Height (cm)">
+
+<button onclick="calculateBMI()">
+Calculate BMI
+</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+<section id="contact">
+
+<h2>Book Free Trial</h2>
+
+<form>
+
+<input type="text"
+placeholder="Name">
+
+<input type="tel"
+placeholder="Phone Number">
+
+<textarea
+placeholder="Fitness Goal">
+</textarea>
+
+<button type="submit">
+Submit
+</button>
+
+</form>
+
+</section>
+
+<a
+class="whatsapp"
+href="https://wa.me/919999999999"
+target="_blank">
+WhatsApp Us
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<img src="images/couple.jpg">
