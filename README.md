@@ -21,7 +21,7 @@ A modern responsive gym website built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-
+https://shuvizone.github.io/gym-website-demo/
 
 
 ## Author
